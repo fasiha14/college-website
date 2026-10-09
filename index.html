@@ -1,0 +1,263 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ravindra College of Engineering for Women</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header p {
+            color: #ffd166;
+            margin-top: 5px;
+        }
+
+        nav {
+            background: #0b2545;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd166;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #123c69, #247ba0);
+            color: white;
+            text-align: center;
+            padding: 85px 20px;
+        }
+
+        .hero h2 {
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #ffd166;
+            color: #123c69;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: white;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #123c69;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .courses {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 22px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            width: 280px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #00000015;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+        }
+
+        .card h3 {
+            color: #247ba0;
+            margin-bottom: 12px;
+        }
+
+        #about, #contact {
+            background: white;
+        }
+
+        .about-text {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        footer {
+            background: #0b2545;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            .hero h2 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ravindra College of Engineering for Women</h1>
+        <p>Join to Learn and Leave to Serve</p>
+        <p>Kurnool, Andhra Pradesh</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Departments</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to RCEW</h2>
+        <p>Empowering Women Through Education, Innovation and Technology</p>
+        <a href="#courses" class="btn">Explore Departments</a>
+    </section>
+
+    <section id="about">
+        <h2>About Our College</h2>
+
+        <div class="about-text">
+            <p>
+                Ravindra College of Engineering for Women (RCEW) is an
+                autonomous engineering institution located in Kurnool,
+                Andhra Pradesh. The college focuses on quality education,
+                technical knowledge, practical learning, and student development.
+            </p>
+
+            <p>
+                Our goal is to encourage young women to become skilled
+                engineers, innovators, and future leaders.
+            </p>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>Our Departments</h2>
+
+        <div class="courses">
+
+            <div class="card">
+                <h3>Computer Science and Engineering</h3>
+                <p>
+                    Learn programming, software development, databases,
+                    and modern computing technologies.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Artificial Intelligence</h3>
+                <p>
+                    Explore artificial intelligence, machine learning,
+                    data analysis, and intelligent systems.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Electronics and Communication</h3>
+                <p>
+                    Discover electronic circuits, communication systems,
+                    embedded systems, and digital technologies.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p><strong>College:</strong> Ravindra College of Engineering for Women</p>
+
+        <p>
+            <strong>Address:</strong>
+            Pasupula Village, Nandikotkur Road, Kurnool,
+            Andhra Pradesh - 518452
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            principal@recw.ac.in
+        </p>
+
+        <p>
+            <strong>Website:</strong>
+            <a href="https://www.recw.ac.in/" target="_blank">
+                www.recw.ac.in
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2026 Ravindra College of Engineering for Women.
+            All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
+
